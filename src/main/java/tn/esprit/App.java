@@ -3,11 +3,6 @@ package tn.esprit;
 public class App {
     public static void main(String[] args) {
         System.out.println("Hello DevOps CI!");
-        System.out.println("Addition: " + add(3, 4));
-        System.out.println("Multiplication: " + multiply(3, 4));
-        System.out.println("Factorielle de 5: " + factorial(5));
-        System.out.println("Est pair (4): " + isEven(4));
-        System.out.println("Max(3, 7): " + max(3, 7));
     }
 
     public static int add(int a, int b) {
